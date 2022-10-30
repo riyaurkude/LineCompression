@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Uc1 {public static void main(String[] args)
 {
+	//UC2
 	int x1,x2,y1,y2,a1,a2,b1,b2;
 	double dis1,dis2;
 	Scanner sc= new Scanner(System.in);
@@ -29,6 +30,14 @@ public class Uc1 {public static void main(String[] args)
 	dis2=Math.sqrt((a2-a1)^2)+((b2-b1)^2);
 	System.out.println("distancebetween"+"("+a1+","+b1+"),"+"("+a2+","+b2+")="+dis2);
 	
+	if(dis1==dis2)
+	{
+		System.out.println("Both the lines are Equal");
+	}
+	else
+	{
+		System.out.println("Both the lines are not Equal");
+	}
 	
 }
 
